@@ -1,0 +1,170 @@
+/* ================ GERAL ================ */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+    --primary-color: #00856F;
+    --headline: #212529;
+    --paragraph: #495057;
+    --beige: #FFFAF1;
+    --green-light: #DCE9E2;
+
+    /* font-size: 100%; */
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+    font-family: 'DM Sans';
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.wrapper {
+    width: 37.5rem;
+    margin-inline: auto;
+}
+
+/* ================ HEADER ================ */
+
+header {
+    margin-top: 4.1rem;
+}
+
+header::before {
+    content: "";
+    width: 100vw;
+    height: 108rem;
+    background-color: var(--green-light);
+    display: block;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+header h4 {
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 150%;
+    letter-spacing: 0.08em;
+    color: var(--primary-color);
+    margin-bottom: 1.6rem;
+}
+
+header h1 {
+    font-size: 3.4rem;
+    color: var(--headline);
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 2.4rem;
+}
+
+header p {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 150%;
+    color: var(--paragraph);
+    margin-bottom: 3.2rem;
+}
+
+header button {
+    background-color: var(--primary-color);
+
+    border: none;
+    border-radius: 4rem;
+
+    margin: 0 auto 6rem auto;
+
+    height: 5.2rem;
+    width: 26.3rem;
+
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+header img {
+    width: 26.4rem;
+    display: block;
+    margin-inline: auto;
+    object-position: 0 2rem;
+}
+
+/* 
+.numbers {
+    background-color: var(--beige);
+    border-radius: 0.6rem;
+    height: 47rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.numbers div h3 {
+    font-weight: 700;
+    font-size: 4.8rem;
+    line-height: 130%;
+    color: var(--headline);
+}
+
+.numbers div p {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 150%;
+    color: var(--primary-color);
+    margin-bottom: 0;
+} */
+
+.stats {
+    width: 32.7rem;
+    padding-block: 4rem;
+    margin-inline: auto;
+
+    background-color: var(--beige);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6rem;
+
+    border: solid 1px #DCE9E2;
+    border-radius: 0.6rem;
+}
+
+.stat h3 {
+    font-weight: 700;
+    font-size: 4.8rem;
+    line-height: 130%;
+    color: var(--headline);
+
+    margin-bottom: 0.4rem;
+}
+
+.stat p {
+    margin: 0;
+    font-weight: 400;
+    line-height: 150%;
+    color: var(--primary-color);
+}
+
+/* ================ NAVEGATION ================ */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.6rem 2.4rem; 
+}
