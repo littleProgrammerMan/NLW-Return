@@ -6,11 +6,10 @@ function onScroll() {
     }
 }
 
-function onClick() {
-    if(true) {
-        document.getElementById('corpo').classList.add('menu-expanded');
-    }
-    else if(true) {
-        document.getElementById('corpo').classList.remove('menu-expanded');
-    }
+function onClickOpen() {
+    document.getElementById('corpo').classList.add('menu-expanded');
+}
+
+function onClickClose() {
+    document.getElementById('corpo').classList.remove('menu-expanded');
 }
