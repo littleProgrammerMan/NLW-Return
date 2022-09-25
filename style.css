@@ -28,7 +28,10 @@ html, body {
 body {
     font-family: 'DM Sans';
     font-size: 1.6rem;
+
     text-align: center;
+
+    overflow: overlay;
 }
 
 .wrapper {

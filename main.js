@@ -7,9 +7,9 @@ function onScroll() {
 }
 
 function onClickOpen() {
-    document.getElementById('corpo').classList.add('menu-expanded');
+    document.body.classList.add('menu-expanded');
 }
 
 function onClickClose() {
-    document.getElementById('corpo').classList.remove('menu-expanded');
+    document.body.classList.remove('menu-expanded');
 }
